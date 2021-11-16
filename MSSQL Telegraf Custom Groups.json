@@ -1,0 +1,67 @@
+{
+   "customGroups": [
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "mssql_database",
+            "adapterKind": "APPOSUCP",
+            "rules": []
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "MSSQL Databases - Telegraf",
+         "description": "",
+         "started": true
+      },
+      {
+         "resourceKind": "Environment",
+         "membershipDefinition": {"ruleGroups": [{
+            "resourceKind": "mssql",
+            "adapterKind": "APPOSUCP",
+            "rules": []
+         }]},
+         "adapterKind": "Container",
+         "autoResolveMembership": true,
+         "name": "MSSQL Servers- Telegraf",
+         "description": "",
+         "started": true
+      }
+   ],
+   "customGroupTypes": [{
+      "resourceKind": "Environment",
+      "localization": [
+         {
+            "resourceKindName": "Umgebung",
+            "locale": "de"
+         },
+         {
+            "resourceKindName": "環境",
+            "locale": "zh_TW"
+         },
+         {
+            "resourceKindName": "환경",
+            "locale": "ko"
+         },
+         {
+            "resourceKindName": "環境",
+            "locale": "ja"
+         },
+         {
+            "resourceKindName": "Environment",
+            "locale": "en"
+         },
+         {
+            "resourceKindName": "环境",
+            "locale": "zh_CN"
+         },
+         {
+            "resourceKindName": "Environnement",
+            "locale": "fr"
+         },
+         {
+            "resourceKindName": "Entorno",
+            "locale": "es"
+         }
+      ]
+   }]
+}
